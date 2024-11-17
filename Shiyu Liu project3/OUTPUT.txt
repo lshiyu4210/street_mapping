@@ -1,0 +1,24 @@
+Name: Shiyu Liu        NetID: sliu89
+email: sliu89@u.rochester.edu
+
+The main method of this project is in StreetMapping.java. Please provide all the
+arguments in its command line. 
+
+For the first argument(args[0]), you have to provide the location of the test file. For
+example: \Users\liusy\Desktop\ur.txt 
+
+For the second argument(args[1]), you have to provide one of the following three instructions:
+"-show", "-directions", or "-meridianmap". "-show" will only draw the graph. For example:
+\Users\liusy\Desktop\ur.txt -show
+
+"-directions" will draw the graph and has a red line representing the shortest path between 
+two intersections. If the red path is not shown, please change the size of the window. You also 
+have to provide the name of two intersections after it. For example: 
+\Users\liusy\Desktop\ur.txt -directions i28 WILSON-BRIDGE
+
+"-meridianmap" will draw the graph and has blue lines representing the minimum spanning
+tree. Note that for nys.txt, it might take 30s to 40s to compute the MST, Similarly, if the blue
+path is not shown, please change the size of the window. Example for the command line 
+argument: \Users\liusy\Desktop\ur.txt -meridianmap
+
+IMPORTANT: You CANNOT provide two instructions at the same time!
